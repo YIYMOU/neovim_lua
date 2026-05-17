@@ -1,11 +1,11 @@
 return {
   cli = {
-    agent = "opencode",
+    agent = "claude_code_ttadk",
     agents = {
-      opencode = {
-        cmd = "opencode",
-        args = {},
-        description = "open Code CLI",
+      claude_code_ttadk = {
+        cmd = "ttadk",
+        args = { "claude", "-m", "gpt-5.4" },
+        description = "Claude Code via ttadk",
         provider = "terminal",
       },
     },

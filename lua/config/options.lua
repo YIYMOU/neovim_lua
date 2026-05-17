@@ -6,11 +6,11 @@
 local set = vim.opt
 set.modifiable = true
 set.number = true
-set.rnu = true
+set.rnu = false
 set.cursorline = true
-set.cursorcolumn = true
--- 可以拆行
-set.wrap = true
+set.cursorcolumn = false
+-- 不自动换行
+set.wrap = false
 set.fileformat = unix
 set.cindent = true
 set.tabstop = 4
@@ -67,3 +67,4 @@ vim.opt.updatetime = 250
 vim.diagnostic.config({
   update_in_insert = false,
 })
+vim.diagnostic.enable(false)

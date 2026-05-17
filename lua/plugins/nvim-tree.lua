@@ -9,10 +9,11 @@ local function my_on_attach(bufnr)
   api.config.mappings.default_on_attach(bufnr)
 
   -- custom mappings
-  vim.keymap.set("n", "e", "j", opts("none"))
-  vim.keymap.set("n", "u", "k", opts("none"))
-  vim.keymap.set("n", "j", api.fs.rename_basename, opts("rename"))
-  vim.keymap.set("n", "l", api.fs.rename_full, opts("r)ename_full"))
+  -- Colemak-DH remaps disabled
+  -- vim.keymap.set("n", "e", "j", opts("none"))
+  -- vim.keymap.set("n", "u", "k", opts("none"))
+  -- vim.keymap.set("n", "j", api.fs.rename_basename, opts("rename"))
+  -- vim.keymap.set("n", "l", api.fs.rename_full, opts("r)ename_full"))
 end
 
 return {

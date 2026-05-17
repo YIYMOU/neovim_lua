@@ -87,6 +87,27 @@ return {
           desc = "Todo",
         },
         {
+          "<leader>ss",
+          function()
+            Snacks.picker.lsp_symbols()
+          end,
+          desc = "当前文件符号",
+        },
+        {
+          "<D-F12>",
+          function()
+            Snacks.picker.lsp_symbols()
+          end,
+          desc = "当前文件符号",
+        },
+        {
+          "<leader>sS",
+          function()
+            Snacks.picker.lsp_workspace_symbols()
+          end,
+          desc = "全项目符号",
+        },
+        {
           "<leader>w",
           function()
             -- 1. 获取光标下的单词

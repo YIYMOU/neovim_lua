@@ -108,10 +108,19 @@ nvim/
 
 | 按键        | 功能         |
 | ----------- | ------------ |
-| `<leader>n` | 跳转到左窗口 |
-| `<leader>e` | 跳转到下窗口 |
-| `<leader>u` | 跳转到上窗口 |
-| `<leader>i` | 跳转到右窗口 |
+| `<leader>h` | 跳转到左窗口 |
+| `<leader>j` | 跳转到下窗口 |
+| `<leader>k` | 跳转到上窗口 |
+| `<leader>l` | 跳转到右窗口 |
+
+### 跳转历史
+
+| 按键         | 功能 |
+| ------------ | ---- |
+| `<leader>o`  | 后退 |
+| `<leader>i`  | 前进 |
+| `<D-[>`      | 后退 |
+| `<D-]>`      | 前进 |
 
 ### 标签页操作
 
@@ -175,7 +184,7 @@ nvim/
 | ------------------------------------------------------------------ | --------------------- | ----------------------------- |
 | [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)        | 文件树 (Colemak 适配) | `tt`                          |
 | [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | 模糊搜索              | `<leader>ff` / `<leader>gg`   |
-| [snacks.picker](https://github.com/folke/snacks.nvim)              | 高级搜索              | `<C-f>` 文件 / `<C-g>` 搜索   |
+| [snacks.picker](https://github.com/folke/snacks.nvim)              | 高级搜索              | `<C-f>` 文件 / `<C-g>` 搜索 / `<leader>ss` 当前文件符号 |
 | [flash.nvim](https://github.com/folke/flash.nvim)                  | 快速跳转              | `s` 跳转 / `<A-s>` Treesitter |
 | [marks.nvim](https://github.com/chentoast/marks.nvim)              | 书签管理              | `'` 设置 / `m` 下一个         |
 
@@ -219,7 +228,10 @@ nvim/
 | `<leader>rn`      | 重命名变量       |
 | `<C-e>` / `<C-u>` | 下/上一个诊断    |
 | `<leader>ge`      | 查看详细错误信息 |
-| `<leader>gg`      | 查看所有诊断     |
+| `<leader>gd`      | 查看所有诊断     |
+| `<leader>ss`      | 当前文件符号     |
+| `<D-F12>`         | 当前文件符号     |
+| `<leader>sS`      | 全项目符号       |
 | `<M-h>`           | 签名帮助         |
 
 ### 🔗 Git

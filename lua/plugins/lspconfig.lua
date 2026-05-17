@@ -86,7 +86,7 @@ return {
               desc = "跳转到实现",
             },
             {
-              "<leader>gg",
+              "<leader>gd",
               function()
                 Snacks.picker.diagnostics()
               end,
