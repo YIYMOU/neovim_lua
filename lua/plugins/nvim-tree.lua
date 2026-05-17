@@ -28,8 +28,6 @@ return {
         hijack_cursor = false,
         hijack_netrw = true,
         hijack_unnamed_buffer_when_opening = false,
-        open_on_setup = true,
-        open_on_setup_file = true,
         open_on_tab = false,
         sort_by = "name",
         update_cwd = false,
@@ -135,7 +133,7 @@ return {
             max_folder_discovery = 300,
           },
           open_file = {
-            quit_on_open = true,
+            quit_on_open = false,
             resize_window = true,
             window_picker = {
               enable = true,
